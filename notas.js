@@ -36,7 +36,7 @@
     if (!window.history.state) {
       window.history.replaceState({ reloaded: true }, "");
   } else {
-      window.location.href = "preguntas.html";
+      window.location.href = "index.html";
   }
   window.addEventListener('load', iniciar);
     window.addEventListener('load', function () {
