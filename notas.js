@@ -42,12 +42,12 @@
     window.addEventListener('load', function () {
     if (performance.navigation.type ==1) {
       // Redirigir a otra página
-      window.location.href = "preguntas.html"; 
+      window.location.href = "index.html"; 
     }
   });
   if (sessionStorage.getItem("reloaded")) {
     sessionStorage.removeItem("reloaded");
-    window.location.href = "preguntas.html";
+    window.location.href = "index.html";
 } else {
     sessionStorage.setItem("reloaded", "true");
 }
