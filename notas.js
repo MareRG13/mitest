@@ -415,7 +415,7 @@ function Resultado() {
          op41 + op42 + op43 + op44 + op45 + op46 + op47 + op48 + op49 + op50;
   calificacionSobre10 = (nota * 10) / 50;
 
-  alert("Tuviste " + nota + " respuestas correctas. Cada respuesta correcta equivale al 0,2 puntos, por lo tanto tu calificacion es de " + calificacionSobre10 + " sobre 10.");
+  alert("Tuviste " + nota + " respuestas correctas. Cada respuesta correcta equivale al 0.2 puntos, por lo tanto tu calificacion es de " + calificacionSobre10 + " sobre 10.");
 
   if (calificacionSobre10 >= 7){
   	alert("Felicidades!!!. Aprovaste el test.");
