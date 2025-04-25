@@ -421,7 +421,7 @@ function Resultado() {
   	alert("Felicidades!!!. Aprovaste el test.");
   }
   else {
-  	alert("No aprovaste el test. Quizá para la siguiente ocación te irá mejor") ;
+  	alert("No aprovaste el test. Quizá para la siguiente ocasión te irá mejor") ;
   }
 document.querySelectorAll('input[type="radio"]:checked').forEach(radio => {
     radio.checked = false;
