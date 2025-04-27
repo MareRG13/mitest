@@ -3,6 +3,7 @@ body {
 }
 
 #tiempo {
+      margin: 10%;
       position: fixed;
       font-size: 80px;
       font-weight: bold;
